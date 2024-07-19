@@ -1,6 +1,7 @@
 # psl (Public Suffix List)
 
-[![Node.js CI](https://github.com/lupomontero/psl/actions/workflows/node.js.yml/badge.svg)](https://github.com/lupomontero/psl/actions/workflows/node.js.yml)
+### Changes in this fork
+ - Accept underscores in hostname (requires as many MX hosts use the syntax).
 
 `psl` is a `JavaScript` domain name parser based on the
 [Public Suffix List](https://publicsuffix.org/).
